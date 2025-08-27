@@ -6,11 +6,15 @@
 
 **TR:**  
 Bu proje, daha önce geliştirilen **Architecture Website Design** çalışmasının **WordPress paneline entegre edilmiş versiyonudur**.  
-Artık tüm site içerikleri WordPress yönetim paneli üzerinden kolayca yönetilebilir. Projeler, faaliyet alanları, sayfalar ve iletişim bilgileri dinamik olarak güncellenebilir.
+Artık tüm site içerikleri WordPress yönetim paneli üzerinden kolayca yönetilebilir.  
+Projeler, faaliyet alanları, sayfalar ve iletişim bilgileri dinamik olarak güncellenebilir.  
+Tema, mimarlık ve inşaat firmalarına özel modern bir tasarım sunar ve mobil cihazlar için tamamen uyumludur.  
 
 **EN:**  
 This project is the **WordPress-integrated version of the previously developed Architecture Website Design**.  
-All website content can now be managed easily through the WordPress admin panel. Projects, services, pages, and contact information can be updated dynamically.
+All website content can now be managed easily through the WordPress admin panel.  
+Projects, services, pages, and contact information can be updated dynamically.  
+The theme offers a modern design specifically for architecture and construction companies and is fully responsive on mobile devices.  
 
 ---
 
@@ -23,6 +27,8 @@ All website content can now be managed easily through the WordPress admin panel.
 - 📱 Mobil uyumlu (responsive) yapı  
 - ⚡ SEO uyumlu ve optimize edilmiş performans  
 - 🎨 Kolay özelleştirilebilir WordPress teması  
+- 📝 Dinamik proje ve hizmet sayfaları  
+- 📬 Dinamik iletişim ve form yönetimi  
 
 **EN:**
 - 🔗 WordPress version of the "Architecture Website Design" project  
@@ -31,16 +37,22 @@ All website content can now be managed easily through the WordPress admin panel.
 - 📱 Mobile-friendly responsive structure  
 - ⚡ SEO optimized and high-performance  
 - 🎨 Easily customizable WordPress theme  
+- 📝 Dynamic project and service pages  
+- 📬 Dynamic contact and form management  
 
 ---
 
-## 🚀 Kurulum (Installation - TR/EN)
+## 📌 Kullanım Alanları (Usage - TR/EN)
 
 **TR:**
-1. Projeyi indir veya klonla:  
-   ```bash
-   git clone https://github.com/alperhanbarut/architecture-website-wordpress-panel.git
+- Mimarlık ofisleri
+- İnşaat firmaları
+- İç mimarlık ve tasarım stüdyoları
+- Kurumsal portföy siteleri
+
 **EN:**
-1. Clone or download the project:  
-   ```bash
-   git clone https://github.com/alperhanbarut/architecture-website-wordpress-panel.git
+- Architecture offices
+- Construction companies
+- Interior design studios
+- Corporate portfolio websites
+

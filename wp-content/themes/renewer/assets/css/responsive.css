@@ -1,0 +1,411 @@
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  /* SLİDER */
+  #slider-container {
+    height: 90vh;
+  }
+  .heading-container h1 {
+    font-size: 7vw;
+    font-weight: 800;
+    margin-top: 20px;
+  }
+  /* PROJELER */
+  .wrapper {
+    height: 100vh;
+  }
+  .devam-projeler h2,
+  .tamamlanan-projeler h2 {
+    font-size: 1.1rem;
+  }
+  .item {
+    width: calc(var(--index) * 3);
+    height: calc(var(--index) * 12);
+  }
+  .item-overlay h3,
+  .item-overlay p {
+    font-size: xx-small;
+  }
+  .item-overlay a {
+    font-size: xx-small;
+    padding: 2%;
+    text-align: center;
+  }
+  /* FAALİYET ALAN */
+  .faaliyet_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 140vh;
+    padding-top: 40px;
+  }
+
+  .faaliyetbaslik {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+    padding-bottom: 4px;
+    letter-spacing: 0.5px;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .container .serviceBox {
+    position: relative;
+    width: 140px;
+    height: 112px;
+    border-radius: 12px;
+    border: 5px solid #cfcdd3;
+  }
+
+  .container .serviceBox .icon {
+    display: flex;
+  }
+
+  .container .serviceBox:hover .icon {
+    display: none;
+  }
+
+  .container .serviceBox .icon i {
+    font-size: 2em;
+    color: #fff;
+  }
+  .container .serviceBox .content {
+    padding: 10px;
+    margin-top: 60px;
+  }
+
+  .container .serviceBox:hover .content {
+    margin-top: -1%;
+  }
+  .container .serviceBox .content h2 {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 0.7rem;
+  }
+
+  .container .serviceBox .content p {
+    font-weight: 300;
+    line-height: 1em;
+    font-size: 0.6rem;
+  }
+  /* HABERLER */
+  article:nth-child(5),
+  article:nth-child(7),
+  article:nth-child(11),
+  article:nth-child(14) {
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 40vh;
+    display: block;
+  }
+  .popup {
+    width: 70%;
+    height: 80%;
+    overflow-y: scroll;
+  }
+  .content .txt {
+    margin: 1.5em;
+  }
+  .content {
+    margin-top: 1em;
+  }
+  /* PROJELER SAYFASI */
+  .proje_container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 5%;
+  }
+  /* FAALİYET ALANLARI SAYFASI */
+  .faaliyet_item {
+    flex-direction: column !important;
+    background-color: #fff;
+  }
+  .faaliyet_resim {
+    flex: 0 0 50%;
+    width: 100%;
+  }
+
+  .faaliyet_icerik {
+    flex: 0 0 50%;
+    width: 100%;
+    height: 400px;
+    padding: 5px;
+    margin-top: 5%;
+  }
+  .faaliyet_icerik h2 {
+    font-size: 35px;
+  }
+  /* İLETİŞİM */
+  .contact-parent {
+    flex-direction: column !important;
+  }
+  .child1 {
+    width: 350px;
+  }
+  .child2 {
+    width: 350px;
+  }
+  .child1 p {
+    margin-left: 35%;
+    transform: translateX(-40%);
+    margin-top: 10%;
+    font-size: 10px;
+  }
+  .child1 img.logo {
+    width: 250px;
+  }
+  /* WP BUTON VE SCROLLUP BUTON */
+  .whatsapp-button,
+  #scrollTopBtn {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+}
+/***********************************************************************************************/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* MOBİL MENU BUTON */
+  .mobil-hamburger-menu-btn > i {
+    margin-top: 80%;
+    font-size: 2rem !important;
+  }
+  /* SLİDER */
+  #slider-container {
+    height: 91vh;
+  }
+  .content-container {
+    bottom: 10%;
+  }
+  /* PROJELER */
+  .wrapper {
+    height: 100vh;
+  }
+
+  .devam-projeler h2,
+  .tamamlanan-projeler h2 {
+    font-size: 1.4rem;
+  }
+
+  .item {
+    width: calc(var(--index) * 3.2);
+    height: calc(var(--index) * 11.2);
+  }
+
+  .item-overlay h3,
+  .item-overlay p {
+    font-size: 0.8rem;
+  }
+
+  .item-overlay a {
+    font-size: 0.8rem;
+    padding: 4%;
+    text-align: center;
+  }
+  /* Faaliyet Alanlarımız */
+  .faaliyet_container {
+    height: 150vh;
+  }
+  .container .serviceBox {
+    width: 240px;
+    height: 250px;
+  }
+  .container .serviceBox .icon i {
+    font-size: 3.5em;
+  }
+  .container .serviceBox:hover .icon {
+    width: 60px;
+    height: 60px;
+    left: calc(50% - 30px);
+  }
+  .container .serviceBox:hover .icon i {
+    font-size: 1.5em;
+  }
+  .container .serviceBox .content h2 {
+    font-size: 1.2rem;
+  }
+  .container .serviceBox .content p {
+    font-size: 0.8rem;
+  }
+  /* FOOTER */
+  .logo-contact {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .footer-logo {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .quick-links {
+    margin-left: 20%;
+  }
+  /* FAALİYET ALANLARI SAYFASI */
+  .faaliyet_icerik h2 {
+    font-size: 30px;
+  }
+  .faaliyet_icerik p {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  /* İLETİŞİM */
+  .contact-parent {
+    flex-direction: column !important;
+  }
+  .child1 {
+    width: 650px;
+  }
+  .child2 {
+    width: 650px;
+  }
+  .child1 p {
+    margin-left: 40%;
+    transform: translateX(-40%);
+    margin-top: 5%;
+  }
+}
+/***********************************************************************************************/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* WP BUTON VE SCROLLUP BUTON */
+  .whatsapp-button,
+  #scrollTopBtn {
+    width: 2em;
+    height: 2em;
+    font-size: 1.2rem;
+  }
+  /* HEADER */
+  .mobil-web-site-logo > a > img {
+    width: 40%;
+  }
+  .mobil-hamburger-menu-btn > i {
+    top: 6rem;
+    font-size: 3rem;
+  }
+  /* SLİDER */
+  #slider-container {
+    height: 85vh;
+  }
+
+  .content-container {
+    width: 60%;
+    bottom: 10%;
+  }
+
+  .content-container h2 {
+    font-size: 1.5em;
+  }
+  /* Faaliyet Alanlarımız */
+  .faaliyet_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 200vh;
+  }
+  .faaliyetbaslik {
+    left: 20%;
+    margin-bottom: -15%;
+  }
+  .faaliyetbaslik::after {
+    left: 25%;
+  }
+  /* HABERLER */
+  figcaption {
+    font-size: 15px;
+  }
+  /* FOOTER */
+  .footer-section {
+    margin-left: 8%;
+  }
+  .social-media {
+    margin-left: -5%;
+  }
+  .footer-logo {
+    margin-bottom: 20%;
+  }
+  .content {
+    margin-top: 7em;
+    margin-bottom: 5em;
+  }
+  .logo-contact {
+    margin-right: 0%;
+  }
+  /* FAALİYET ALANLARI SAYFASI */
+  .faaliyet_icerik h2 {
+    font-size: 40px;
+  }
+  .faaliyet_icerik p {
+    font-size: 13px;
+  }
+  /* İLETİŞİM */
+  .child1 {
+    width: 350px;
+  }
+  .child2 {
+    width: 550px;
+  }
+}
+/***********************************************************************************************/
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* HEADER */
+  .site-navigation-menu a {
+    font-size: 15px;
+  }
+  .sub-menu {
+    top: 120%;
+  }
+  .site-navigation-menu {
+    margin-top: 5%;
+  }
+  .site-navigation-menu a:hover::after {
+    width: 550%;
+  }
+  /* SLİDER */
+  .heading-container h1 {
+    margin-top: 180px;
+  }
+  .content-container {
+    bottom: 15%;
+  }
+  .content-container h2 {
+    font-size: 2.1em;
+  }
+
+  .content-container p {
+    font-size: 1.3em;
+  }
+  /* Faaliyet Alanlarımız */
+  .faaliyet_container {
+    height: 140vh;
+  }
+  /* FOOTER */
+  .footer-section {
+    margin-left: 10%;
+  }
+  .social-media {
+    margin-left: -5%;
+  }
+  /* Hakkımızda Sayfası */
+  .content {
+    margin-top: 5.5em;
+  }
+  /* FAALİYET ALANLARI SAYFASI */
+  .faaliyet_icerik h2 {
+    font-size: 40px;
+  }
+  .faaliyet_icerik p {
+    font-size: 14px;
+  }
+  .logo-contact {
+    margin-right: 0%;
+  }
+  /* İLETİŞİM */
+  .child1 {
+    width: 500px;
+  }
+  .child2 {
+    width: 700px;
+  }
+}
+/***********************************************************************************************/
